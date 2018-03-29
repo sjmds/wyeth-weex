@@ -1,0 +1,34 @@
+#courseDetail {
+    position: relative;
+    background-color: #ffffff;
+}
+
+
+#courseDetail .courseDetail-content {
+    margin: 30px 25px;    
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    font-size: 32px;
+}
+
+.courseDetail-content .courseDetail-content-image {
+    position: relative;
+    // width: 700px;
+    // overflow: hidden;
+    align-self: center;
+    // height: 1000px;
+}
+
+#courseDetail .courseDetail-footer{
+    background: #ffffff;
+    width: inherit;
+    height: 100px;
+}
+
+.courseDetail-footer .courseDetail-footer-image{
+    width: 36px;
+    height: 19px;
+    margin: auto;
+}

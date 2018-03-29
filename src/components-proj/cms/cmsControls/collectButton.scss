@@ -1,0 +1,36 @@
+$collectButton_w:375px;
+$collectButton_h:90px;
+$icon_w:29px;
+$text_w:80px;
+$padding:25px;
+$margin:($collectButton_w - $icon_w - $padding - $text_w) / 2;
+
+.collectButton {
+    position: relative;
+    width: $collectButton_w;
+    height: $collectButton_h;
+    flex-direction: row;
+    align-self: center;
+}
+
+.collectButton .collectButton-icon {
+    position: absolute;
+    top: ($collectButton_h - $icon_w) / 2;
+    left:$margin;
+    width: $icon_w;
+    height: $icon_w;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.collectButton .collectButton-text {
+    position: absolute;
+    top: 0;    
+    left: $margin + $icon_w + $padding;    
+    line-height: $collectButton_h;
+    width: 160px;
+    text-align: left;
+    font-size: 27px;
+    color: #D5AB3F;
+}

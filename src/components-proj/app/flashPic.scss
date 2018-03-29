@@ -1,0 +1,40 @@
+$flashPic_w:590px;
+$image_h:846px;
+$button_w:67px;
+$button_h:100px;
+
+.flashPic {
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+  }
+
+.flashPic-content {
+  position: relative;
+  top: -$button_h / 2;
+  width: $flashPic_w;
+  //height: $image_h + $button_h;
+  height: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flashPic-content-button {
+  position: relative;
+  width:$button_w;
+  height:$button_h;
+  background-image: url('../../assets/flase_close.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-self: flex-end;
+}
+
+.flashPic-content-image {
+  position: relative;
+  //width:inherit;
+  //height:$image_h;
+  align-self: center;
+  border-radius: 18px;
+}

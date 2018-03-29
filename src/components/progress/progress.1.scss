@@ -1,0 +1,57 @@
+$progress_h: 80px;
+$bar_h: 6px;
+$dot_w:40px;
+$dot_h:42px;
+
+
+
+.progress {
+    position: relative;
+    width: 581px;
+    height: $progress_h;
+    justify-content: space-around;
+}
+
+.progress .progress-total {
+    position: absolute; 
+    top: ($progress_h - $bar_h) / 2;
+    left: 0px;
+    width: inherit;
+    height: $bar_h;
+    background-color: #d0d2d0;    
+}
+
+.progress-total .progress-current {
+    height: $bar_h;
+    width: 0;
+    background-color: #e3a91c;
+}
+
+.progress-total .progress-dot {
+    position: absolute;
+    top:($bar_h - $dot_h) / 2;
+    left: 0px;
+    margin-left: -($dot_w / 2);
+    width: $dot_w;
+    height: $dot_h;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#miniPlayer .miniPlayer-currentTime,
+#miniPlayer .miniPlayer-totalTime {
+  position: absolute;
+  width: 60px;
+  font-size: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  bottom: 0px;
+}
+
+#miniPlayer .miniPlayer-currentTime {
+  left: 10px;
+}
+
+#miniPlayer .miniPlayer-totalTime {
+  right: 10px;
+}

@@ -1,0 +1,46 @@
+.tags-group_container {
+  background-color: #f4f4f4;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 6px;
+  padding-bottom: 32px;
+  padding-left: 18px;
+}
+
+.tags-group_tag_followed {
+  background-color: #eceae7;
+  border-radius: 8px;
+  height: 88px;
+  flex-direction: row;
+  padding-left: 26px;
+  margin-top: 22px;
+  margin-right: 18px;
+  align-items: center;
+}
+
+.tags-group_tag_unfollowed {
+  background-color: #fff;
+  border-radius: 8px;
+  height: 88px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d4d9e7;
+  padding-left: 26px;
+  padding-right: 26px;
+  margin-top: 22px;
+  margin-right: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tags-group_tag_close {
+  width: 20px;
+  height: 20px;
+  align-self: flex-start;
+  margin-right: 11px;
+  margin-top: 7px;
+}
+
+.tags-groups_text {
+  font-size: 26px;
+}

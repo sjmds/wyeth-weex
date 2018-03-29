@@ -1,0 +1,37 @@
+$flashView_w:590px;
+$image_h:846px;
+$button_w:52px;
+$button_h:78px;
+
+.flashView {
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.flashView-content {
+  position: relative;
+  top: -$button_h / 2;
+  width: $flashView_w;
+  //height: $image_h + $button_h;
+  height:auto;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flashView-content-button {
+  position: relative;
+  width:$button_w;
+  height:$button_h;
+  background-image: url('../../assets/flase_close.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-self: flex-end;
+}
+
+.flashView-content-image {
+  position: relative;
+  align-self: center;
+  border-radius: 18px;
+}

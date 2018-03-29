@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "phantomjs": "^2.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "phantomjs": "node_modules/.bin/phantomjs",
+    "dev": "node_modules/.bin/phantomjs index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,60 @@
+.ohs-paid-course-cell-container{
+  padding-top: 21.4px;
+  padding-bottom: 22.2px;
+  padding-left: 43px;
+  padding-right: 41px;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.ohs-paid-course-img{
+  background-color: #e6e6e6;
+  width: 156px;
+  height: 156px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f7f4f2;
+}
+
+.ohs-paid-course-text-container{
+  flex-direction: column;
+  flex: 1;
+  margin-left: 30px;
+  justify-content: space-between;
+}
+
+.ohs-paid-course-title-container{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.ohs-paid-course-title{
+  color: #000000;
+  font-size: 30px;
+  overflow: hidden;  
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+
+}
+.ohs-paid-course-desc{
+  color: #333333;
+  font-size: 25px;
+  overflow: hidden;  
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+}
+.ohs-paid-course-extra-contianer{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ohs-paid-course-num{
+  color: #999999;
+  font-size: 22px;
+}
+.ohs-paid-course-label{
+  color: #EC6941;
+  font-size: 22px;
+}
+
+

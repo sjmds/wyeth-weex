@@ -1,0 +1,38 @@
+.o-user-panel-container {
+  flex-direction: row;
+  align-items: center;
+  height: 191px;
+  padding-left: 30px;
+  padding-right: 34px;
+  background-image: linear-gradient(to right,#f1eee9,#fbfaf8,#fdfdfd,#f9f9f7,#efece7);
+  //background-image: -webkit-gradient(linear, left top, right top, from(#f1eee9), color-stop(0.25, #fbfaf8), color-stop(0.5, #fdfdfd), color-stop(0.75, #f9f9f7), to(#efece7));
+  //background-image: -webkit-linear-gradient()
+}
+
+.o-user-panel-avatar {
+  width: 132px;
+  height: 132px;
+  border-radius: 66px;
+  margin-right: 24px;
+}
+
+.o-user-panel-text-info {
+  align-items: flex-start;
+  flex: 1;
+}
+
+.o-user-panel-text-nickname {
+  font-size: 30px;
+  color: #333;
+}
+
+.o-user-panel-text-pre-date {
+  color: #999;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.o-user-panel-more-img {
+  width: 11px;
+  height: 21px;
+}

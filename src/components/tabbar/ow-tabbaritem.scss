@@ -1,0 +1,18 @@
+  .container {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 108px;
+  }
+
+  .tab-icon {
+    width: 54px;
+    height: 54px;
+    margin-bottom: 5px;
+  }
+
+  .tab-text {
+    text-align: center;
+    font-size: 20px;
+  }

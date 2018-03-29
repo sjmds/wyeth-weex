@@ -1,0 +1,45 @@
+.o-text-panel-container {
+  height: 146px;
+  width: 250px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.o-text-panel-container-main {
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.o-text-panel-text-dot-con {
+  flex-direction: row;
+}
+
+.o-text-panel-text-content {
+  font-weight: bold;
+  font-size: 28px;
+  color: #333;
+}
+
+.o-text-panel-red-dot {
+  width: 16px;
+  height: 16px;
+  background-color: red;
+  border-radius: 8px;
+  margin-right: -12px;
+  margin-left: 2px;
+}
+
+.o-text-panel-text-title {
+  font-size: 24px;
+  color: #999;
+}
+
+.o-text-panel-text-divider {
+  width: 1px;
+  height: 60px;
+  background-color: #EEEEEE;
+}

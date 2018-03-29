@@ -1,0 +1,83 @@
+.o-mqcell-container {
+  flex-direction: row;
+  padding-left: 50px;
+  padding-right: 53px;
+}
+
+.o-mqcell-line-container {
+  align-items: center;
+}
+
+.o-mqcell-line-dot {
+  background-image: linear-gradient(to right,#d5ab3f,#fecd2d);
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  margin-top: 28px;
+}
+
+.o-mqcell-line-line {
+  width: 2px;
+  height: 192.5px;
+  margin-top: 13px;
+  background-color: #d4d4d4;
+}
+
+.o-mqcell-main-container {
+  width: 631px;
+}
+
+.o-mqcell-main-date-container {
+  padding-left: 36px;
+  flex-direction: row;
+  height: 67px;
+  align-items: center;
+}
+
+.o-mqcell-main-date-time {
+  color: #333;
+  font-size: 26px;
+  flex: 1;
+}
+
+.o-mqcell-main-date-date {
+  color: #999;
+  font-size: 26px;
+  margin-top: -3px;
+}
+
+.o-mqcell-main-detail-container {
+  height: 187px;
+  padding-left: 60px;
+  margin-left: 8px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #d4d4d4;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #d4d4d4;
+}
+
+.o-mqcell-main-detail-out {
+  color: #13bd47;
+  font-size: 36px;
+  margin-top: 24px;
+}
+
+.o-mqcell-main-detail-in {
+  color: #fc6363;
+  font-size: 36px;
+  margin-top: 24px;
+}
+
+.o-mqcell-main-detail-left {
+  color: #999;
+  font-size: 26px;
+  margin-top: 18px;
+}
+
+.o-mqcell-main-detail-info {
+  color: #333;
+  font-size: 26px;
+  margin-top: 16px;
+}

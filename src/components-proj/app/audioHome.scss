@@ -1,0 +1,163 @@
+$miniPlayer_h:0px;
+$playheader_h:125px;
+
+$songcell_h:100px;
+$playlist_h: $songcell_h * 6;
+
+$playfooter_h:100px;
+
+$audioPlayer_h: $playheader_h + $playlist_h + $playfooter_h;
+
+#sheet {
+  position: fixed;
+  flex-direction: column-reverse;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+#audioPlayer {
+  position: relative;
+  height: $audioPlayer_h;
+  align-self: center;
+  width: 750px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.94);
+}
+
+//播放控制头 
+#audioPlayer .playheader {
+  position: relative;
+  width: inherit;
+  height: $playheader_h;
+  background-color: white;
+  border-width: 0 0 1px 0;
+  border-bottom-style:solid;
+  border-bottom-color:#c2c2c2;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.playheader .control,  
+.playheader .refresh {
+  height: $playheader_h;
+  padding-left: 30px;  
+  padding-right: 30px;
+  width: 240px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control .icon,
+.refresh .icon{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.control .title,
+.refresh .title{
+  position: relative;
+  font-size: 30px;
+  color: #444444;
+}
+
+// 播放列表
+#audioPlayer .playlist {
+  position: relative;
+  width: inherit;
+  height: $playlist_h;
+  background-color: #ffffff;
+}
+
+#audioPlayer .playfooter {
+  position: relative;
+  width: inherit;
+  height: $playfooter_h;
+  background-color: white;
+  border-width: 1px 0 0 0;
+  border-top-style:solid;
+  border-top-color:#c2c2c2;
+}
+
+.playfooter .title {
+  position: relative;
+  line-height: $playfooter_h;
+  text-align: center;
+  color: #cb8505;
+  font-size: 34px;
+}
+
+
+  .tabbar-center {
+    position: fixed;    
+    width: 146px;
+    height: 138px;
+    bottom: 0;
+    left: 306px;
+  }
+
+  .img-wrap {
+    width: 146px;
+    height: 138px;
+    padding: 23px 25px;
+    bottom: 4px;
+    background-image: url("../../assets/default_tabcenter_shadow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .img-cover {
+    width: 96px;
+    height: 96px;
+    position: relative;
+    border-radius: 48px;
+  }
+  
+  .img-state {
+    position: absolute;
+    top:20px;
+    left: 22px;
+    width: 102px;
+    height: 102px;
+    border-radius: 50px;
+  }
+
+// 旋转动画
+  @keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  /* Safari and Chrome */
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  .Rotation {
+    -webkit-transform: rotate(360deg);
+    animation: rotation 5s linear infinite;
+    -moz-animation: rotation 5s linear infinite;
+    -webkit-animation: rotation 5s linear infinite;
+    -o-animation: rotation 5s linear infinite;
+  }
+
+
+
+  

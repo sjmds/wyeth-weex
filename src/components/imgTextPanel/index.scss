@@ -1,0 +1,37 @@
+.o-img-text-panel-container {
+  height: 137px;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  border-right-color: #eee;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.o-img-text-panel-image {
+  margin-left: 31px;
+  margin-right: 54px;
+}
+
+.o-img-text-panel-container-text {
+  flex: 1;
+  align-self: stretch;
+}
+
+.o-img-text-panel-text-title {
+  color: #000000;
+  font-size: 28px;
+  margin-top: 28px;
+}
+
+.o-img-text-panel-text-content {
+  color: #707377;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.o-img-text-panel-divider {
+  color: #EEEEEE;
+  width: 1px;
+  height: 137px;
+}
